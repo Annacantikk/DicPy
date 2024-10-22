@@ -11,5 +11,8 @@ pipenv shell
 
 pip install -r requirements.txt
 
+# Install Library
+pip install pandas matplotlib seaborn streamlit babel
+
 # Run Dashboard Bike Sharing 
 streamlit run bike_rental_dashboard.py
